@@ -1,0 +1,54 @@
+#
+#  keywords.txt - Threads library
+#  (c)2019 Iacopo Baroncini
+#
+#  This library is free software; you can redistribute it and/or
+#  modify it under the terms of the GNU Lesser General Public
+#  License as published by the Free Software Foundation; either
+#  version 2.1 of the License, or (at your option) any later version.
+#
+#  This library is distributed in the hope that it will be useful,
+#  but WITHOUT ANY WARRANTY; without even the implied warranty of
+#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+#  Lesser General Public License for more details.
+#
+#  You should have received a copy of the GNU Lesser General Public
+#  License along with this library; if not, write to the Free Software
+#  Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
+#  
+#  16 Oct 2019 - initial release 
+#
+##############
+# Data types #
+##############
+ThreadStackSize	KEYWORD1
+Thread	KEYWORD1
+#############
+# Constants #
+#############
+T_STACK_64	LITERAL2	Constants	RESERVED_WORD_2
+T_STACK_128	LITERAL2	Constants	RESERVED_WORD_2
+T_STACK_256	LITERAL2	Constants	RESERVED_WORD_2
+T_STACK_512	LITERAL2	Constants	RESERVED_WORD_2
+###########
+# Methods #
+###########
+setupStack	KEYWORD2
+yield	KEYWORD2
+yieldAndDelay	KEYWORD2
+suspend	KEYWORD2
+resume	KEYWORD2
+shutdown	KEYWORD2
+terminate	KEYWORD2
+runAllThreads	KEYWORD2
+terminateAll	KEYWORD2
+periodSync	KEYWORD2
+periodDelay	KEYWORD2
+#####################
+# Language keywords #
+#####################
+setup	LITERAL2		RESERVED_WORD
+body	LITERAL2		RESERVED_WORD
+wrapup	LITERAL2		RESERVED_WORD
+runEvery	LITERAL2		RESERVED_WORD
+infiniteLoop	LITERAL2		RESERVED_WORD
